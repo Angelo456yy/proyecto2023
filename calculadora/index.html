@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div class="cal">
+    <form name="Calculadora">
+      <input class="textfield" type="textfield" name="ans" value="" autocomplete="off" readonly>
+      <br>
+      <input class="uno" type="button" value="1" onclick="document.Calculadora.ans.value+='1'">
+      <input class="dos" type="button" value="2" onclick="document.Calculadora.ans.value+='2'">
+      <input class="tres" type="button" value="3" onclick="document.Calculadora.ans.value+='3'">
+      <input class="suma" type="button" value="+" onclick="document.Calculadora.ans.value+='+'">
+      <input class="resta"  type="button" value="-" onclick="document.Calculadora.ans.value+='-'">
+      <br>
+      <input class="cuatro" type="button" value="4" onclick="document.Calculadora.ans.value+='4'">
+      <input class="cinco" type="button" value="5" onclick="document.Calculadora.ans.value+='5'">
+      <input class="seis" type="button" value="6" onclick="document.Calculadora.ans.value+='6'">
+      <input class="mult" type="button" value="X" onclick="document.Calculadora.ans.value+='*'">
+      <input class="divi"type="button" value="/" onclick="document.Calculadora.ans.value+='/'">
+      <br>
+      <input class="siete" type="button" value="7" onclick="document.Calculadora.ans.value+='7'">
+      <input class="ocho" type="button" value="8" onclick="document.Calculadora.ans.value+='8'">
+      <input class="nueve" type="button" value="9" onclick="document.Calculadora.ans.value+='9'">
+      <input class="potencia" type="button" value="^" onclick="document.Calculadora.ans.value+='**'">
+      <input class="Raiz" type="button" value="√" onclick="document.Calculadora.ans.value+='Math.sqrt('">
+      <br>
+      <input class="cero" type="button" value="0" onclick="document.Calculadora.ans.value+='0'">
+      <input class="punto" type="button" value="." onclick="document.Calculadora.ans.value+='.'">
+      <input class="borrar" type="button" value="C" onclick="document.Calculadora.ans.value=''">
+      <input class="igual" type="button" value="=" onclick="document.Calculadora.ans.value=eval(document.Calculadora.ans.value)">
+    </form>
+    <p class="calculadora">Calculadora 3000</p>
+  </div> 
+     <br>
+      <audio controls autoplay>
+       <source src="lofi.mp3">
+      </audio>
+</body>
+
+</html>

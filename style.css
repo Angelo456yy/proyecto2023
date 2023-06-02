@@ -1,0 +1,119 @@
+body{
+    background-image: url(imagenes/fondo.gif);
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(33, 33, 33);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal > li:hover{
+    background-color: royalblue;
+}
+.vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba( 0, 0, 0, 0.5);
+}
+
+.horizontal li:hover .vertical{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical li:hover{
+    background-color: black;
+}
+.vertical li > a{
+display: block;
+color: white;
+padding: 15px 15px 15px 20px;
+text-decoration: none;
+}
+
+
+.elemento {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #ffffff;
+  padding: 10px;
+  width: 60%;
+    padding-bottom: 200px;
+    border-radius: 20px;
+}
+
+  .estilo1 {
+    color: rgb(0, 238, 255);
+    font-size: 16px;
+    background-color: rgb(33, 33, 33);
+    width: 60%;
+    padding-bottom: 300px;
+    border: solid;
+    border-color: rgb(1, 255, 170);
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.estilo2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-style: italic;
+    background-color: rgb(48, 49, 49);
+    width: 60%;
+    padding-bottom: 300px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(144, 144, 144);
+    border: solid;
+  }
+
+.estilo3 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    background-color: rgb(176, 176, 176);
+    width: 60%;
+    padding-bottom: 300px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.img{
+width: 200px;
+margin-bottom: 30%;
+}
+
+.video{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-left: 90px;
+}
+  
+  
+
+
+
+  

@@ -1,0 +1,44 @@
+body {
+    background-image: url(fondo3.gif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parrafos{
+    display:flex ;      
+      }
+p{
+        color:rgba(246, 239, 239, 0.952);
+        margin-left: 30px;
+}
+
+h1{
+    color: beige;
+   margin-left: 30px;
+}
+
+h2{
+    color: beige;
+    margin-left: 30px;
+}
+
+h3 {
+  color: beige;
+  margin-left: 30px;
+}
+
+h4{
+    color: beige;
+    margin-left: 30px;
+}
+       
+li{
+        color:rgb(255, 255, 255);
+        margin-left: 30px;
+}     
+
+a{
+    color:rgb(255, 255, 255);
+    margin-left: 30px;
+}     
+

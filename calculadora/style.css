@@ -1,0 +1,143 @@
+body{
+    background-image: url(fondo.gif);
+}
+
+.cal{
+    background-color: dimgrey;
+   width: 22%;
+   padding-bottom: 80px;
+   border: solid;
+   border-radius: 20px;
+}
+
+.textfield{
+    margin-top: 10px;
+   padding-right: 25px;
+   padding-bottom: 20px;
+   border-radius: 10px;
+   font-size: 20px;
+   margin-left: 5px;
+}
+
+.uno{
+    margin-top: 10px;
+    padding: 20px;
+margin-left: 8px;
+border-radius: 10px;
+}
+
+.dos{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tres{
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.suma{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resta{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cuatro{
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cinco{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.seis{
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.mult{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.divi{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.siete{
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ocho{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nueve{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.potencia{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Raiz{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cero{
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.punto{
+    padding-right: 40px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-radius: 10px; 
+    text-align: center;
+    align-items: center;
+}
+
+.borrar{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.igual{
+    padding-right: 80px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.calculadora{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
